@@ -19,6 +19,7 @@ void triangle(int x,int y)
 		glVertex2f(x+300,y+0);
 	glEnd();
 	glFlush();
+	goa();
 }
 void display()
 {
