@@ -16,6 +16,7 @@ void draw_pixel(int x, int y)
 	glVertex2i(x, y);
 	glEnd();
 	glFlush();
+	goa();
 }
 
 void LineBres(int xstart, int ystart, int xend, int yend)
